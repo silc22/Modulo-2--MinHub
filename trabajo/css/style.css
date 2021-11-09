@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap');
+
+:root{
+    /* enable colors */
+    --dark: #211915;
+    --primary: #092357;
+    --blue: #0064bc;
+    --secondary: #ecbd86;
+    --other: #a95f4e;
+    --grey: #66676d;
+    --white: #ffffff;
+    /* disable colors */
+    --darkD: #0f0c0a;
+    --primaryD: #061738;
+    --blueD: #014f94;
+    --secondaryD: #b38e63;
+    --otherD: #8a4d3f;
+    --greyD: #49494e;
+    --whiteD: #d8d2d2;
+}
+
+body{
+    font-size: 18px;
+    font-family: 'Playfair Display', serif;
+}
+
+
+.costum-bg{
+    background-color: var(--primary);
+    color: #ffffff;
+}
+
+.costum-bg-sinHover{
+    background-color: var(--primary);
+    color: #ffffff;
+}
+
+.costum-bg:hover{
+    color:var(--whiteD);
+    transition: .3s;
+}
+
+td > a{
+    text-decoration: none;
+    color: var(--primary);
+    font-weight: bold;
+    border-bottom: 1px solid var(--otherD);
+}
+
+
+th{
+    text-align: center;
+}
+
+td{
+    text-align: center;
+}
+
+.colorBtn{
+    color: var(--darkD);
+} 
